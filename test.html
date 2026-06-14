@@ -1,0 +1,298 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pakistan History | By Mohammed Sibtain</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:#f4f7f6;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#006600,#014421);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+nav{
+    background:#003300;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#90ee90;
+}
+
+.section{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.section h2{
+    text-align:center;
+    color:#006600;
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    color:#006600;
+    margin-bottom:10px;
+}
+
+.timeline{
+    border-left:4px solid #006600;
+    padding-left:20px;
+}
+
+.timeline-item{
+    margin-bottom:30px;
+}
+
+.timeline-item h3{
+    color:#006600;
+}
+
+footer{
+    background:#003300;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#006600;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.hero-btn:hover{
+    background:#90ee90;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pakistan History</h1>
+    <p>Discover the Journey of Pakistan from Ancient Civilizations to Modern Times</p>
+    <a href="#history" class="hero-btn">Explore History</a>
+</header>
+
+<nav>
+    <a href="#history">History</a>
+    <a href="#leaders">Leaders</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#about">About</a>
+</nav>
+
+<section class="section" id="history">
+    <h2>Historical Eras</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1580130732478-4e339fb683f9" alt="">
+            <div class="card-content">
+                <h3>Indus Valley Civilization</h3>
+                <p>
+                    One of the world's oldest civilizations,
+                    flourishing around 2500 BCE in Mohenjo-Daro and Harappa.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2" alt="">
+            <div class="card-content">
+                <h3>Muslim Rule</h3>
+                <p>
+                    Beginning with Muhammad Bin Qasim and later strengthened
+                    by the Delhi Sultanate and Mughal Empire.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519834785169-98be25ec3f84" alt="">
+            <div class="card-content">
+                <h3>Pakistan Movement</h3>
+                <p>
+                    A political movement led by Quaid-e-Azam Muhammad Ali Jinnah
+                    for a separate homeland for Muslims.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="leaders">
+    <h2>Important Leaders</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="card-content">
+                <h3>Quaid-e-Azam Muhammad Ali Jinnah</h3>
+                <p>
+                    Founder of Pakistan and its first Governor-General.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>Allama Muhammad Iqbal</h3>
+                <p>
+                    National Poet and visionary who inspired the idea of Pakistan.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>Liaquat Ali Khan</h3>
+                <p>
+                    Pakistan's first Prime Minister and a key leader of the movement.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="timeline">
+    <h2>Timeline of Pakistan</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>1940</h3>
+            <p>Lahore Resolution presented.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1947</h3>
+            <p>Pakistan gained independence on 14 August.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1956</h3>
+            <p>Pakistan became an Islamic Republic.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1973</h3>
+            <p>New Constitution adopted.</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Today</h3>
+            <p>Pakistan continues to grow as an important nation in South Asia.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About This Website</h2>
+    <p style="text-align:center;max-width:800px;margin:auto;font-size:18px;">
+        This website was created to educate visitors about the rich history
+        of Pakistan, its struggle for independence, and the leaders who shaped
+        the nation. Developed by Mohammed Sibtain.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Pakistan History Website | Created by Mohammed Sibtain</p>
+</footer>
+```html
+<section style="text-align:center;padding:50px;">
+    <h2>Support This Project</h2>
+    <p>If you enjoy learning about Pakistan's history, consider supporting this website.</p>
+
+    <a href="YOUR_DONATION_LINK_HERE" target="_blank">
+        <button style="
+            background:#006600;
+            color:white;
+            padding:15px 30px;
+            border:none;
+            border-radius:30px;
+            font-size:18px;
+            cursor:pointer;">
+            ❤️ Donate
+        </button>
+    </a>
+</section>
+```
+s
+</body>
+</html>
+```
